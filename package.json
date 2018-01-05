@@ -1,0 +1,29 @@
+{
+  "name": "dynamodb-export",
+  "version": "1.0.0",
+  "description": "Export Dynamo-db documents to SQS to be migrated",
+  "main": "migrate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShubhankarS/dynamodb-export.git"
+  },
+  "keywords": [
+    "dynamo",
+    "sqs",
+    "migrate",
+    "export"
+  ],
+  "author": "Shubhankar S",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShubhankarS/dynamodb-export/issues"
+  },
+  "homepage": "https://github.com/ShubhankarS/dynamodb-export#readme",
+  "dependencies": {
+    "async": "^2.6.0",
+    "aws-sdk": "^2.176.0"
+  }
+}
